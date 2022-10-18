@@ -1,22 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ConsoleApp3;
-
-namespace CosoleAnpp3
+﻿namespace calculator
 {
-    class Class1
+   public  class Calcultator
     {
-        static void ff()
+        public static int Sum(int a, int b)
         {
-            double num = Program.GetRandom();
 
-            Sex sex = Sex.man;
-
-
-
+            return a + b;
+        }
+        public static int Sum(string strA, string strB)
+        {
+            int a, b;
+            int.TryParse(strA, out a);
+            int.TryParse(strB, out b);
+            return Sum(a, b);
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Media;
-namespace ConsoleApp3
+namespace calculator
 {
     //枚举 常用来约束 或者 规定一个统一的写法 针对共性问题
     //枚举值 = int类型 一版情况是是这样的写法
